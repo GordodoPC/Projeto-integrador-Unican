@@ -3,9 +3,9 @@ const ongData = {
     nome: "Esperança e Vida",
     descricao: "ONG que ajuda pessoas com câncer em Foz do Iguaçu e Cascavel.",
     contato: {
-        telefone: "(45) 1234-5678",
-        email: "contato@esperancaevida.org",
-        endereco: "Rua Exemplo, 123, Foz do Iguaçu - PR"
+        telefone: "(45) 3026-1400",
+        email: "unican@hotmail.com.br",
+        endereco: "Avenida Gramado, 749, Vila A, Foz do Iguaçu - PR"
     },
     projetos: [
         {
