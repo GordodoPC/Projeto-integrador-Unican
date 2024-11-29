@@ -3,69 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unican - Página Inicial</title>
+    <title>Unican - Transformando Vidas</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header -->
     <header class="header">
-        <div class="container">
-            <img src="imagens/logo unican.png" alt="Logotipo da Unican" class="logo">
-            <h1 class="title">Bem-vindo à Unican</h1>
-            <p class="subtitle">União Iguaçuense de Apoio a Pessoas com Câncer</p>
+        <div class="container header-container">
+            <div class="logo-container">
+                <img src="imagens/logo-unican.png" alt="Logotipo da Unican" class="logo">
+            </div>
+            <div class="header-text">
+                <h1>Bem-vindo à Unican</h1>
+                <p>Oferecendo esperança e suporte para pessoas com câncer e suas famílias.</p>
+                <a href="doacoes.html" class="cta-button highlight">Doe Agora</a>
+            </div>
         </div>
     </header>
 
+    <!-- Navbar -->
     <nav class="navbar">
-        <ul class="nav-list container">
-            <li><a href="index.html">Início</a></li>
-            <li><a href="doacoes.html">Doações</a></li>
-            <li><a href="projetos.html">Projetos</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#como-ajudar">Como Ajudar</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <main class="main-content container">
-        <section id="sobre" class="section">
-            <h2>Sobre Nós</h2>
-            <img src="path/to/sobre-nos-image.jpg" alt="Imagem representativa da Unican" class="section-image">
-            <p>ONG dedicada a apoiar pessoas com câncer em Foz do Iguaçu e Cascavel.</p>
-            <p>Oferecemos suporte emocional e social, além de fornecer informações sobre direitos e acesso a tratamentos. Nossas atividades incluem apoio psicológico, orientação legal e hospedagem temporária para pacientes em tratamento.</p>
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Sobre -->
+        <section id="sobre" class="section about-section">
+            <div class="container">
+                <h2>Sobre Nós</h2>
+                <div class="content-grid">
+                    <div class="text-content">
+                        <p>A Unican é uma organização sem fins lucrativos dedicada a apoiar pessoas com câncer. Nossa missão é oferecer acolhimento, suporte emocional e social, além de orientação sobre direitos e tratamentos.</p>
+                    </div>
+                    <div class="image-content">
+                        <img src="imagens/sobre-nos.jpg" alt="Equipe da Unican em ação">
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="projetos" class="section">
-            <h2>Projetos</h2>
-            <img src="path/to/projetos-image.jpg" alt="Imagem representativa de projetos da Unican" class="section-image">
-            <ul>
-                <li><strong>Casa de Apoio:</strong> Hospedagem temporária para pacientes e acompanhantes durante o tratamento oncológico.</li>
-                <li><strong>Defesa e Garantia de Direitos:</strong> Aconselhamento e orientação sobre direitos sociais para os pacientes e suas famílias.</li>
-                <li><strong>Fortalecimento de Vínculos:</strong> Atividades de integração para reforçar os laços familiares e comunitários.</li>
-            </ul>
+        <!-- Projetos -->
+        <section id="projetos" class="section projects-section">
+            <div class="container">
+                <h2>Projetos</h2>
+                <div class="project-cards">
+                    <div class="project-card">
+                        <h3>Casa de Apoio</h3>
+                        <p>Oferecemos hospedagem gratuita e segura para pacientes e acompanhantes durante o tratamento.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Defesa de Direitos</h3>
+                        <p>Auxiliamos pacientes com orientação jurídica e acesso a benefícios sociais.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Fortalecimento Comunitário</h3>
+                        <p>Promovemos integração e apoio comunitário com eventos e atividades sociais.</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="como-ajudar" class="section">
-            <h2>Como Ajudar</h2>
-            <p>Você pode contribuir com a nossa causa de várias formas:</p>
-            <ul>
-                <li><strong>Doações:</strong> Ajude com contribuições financeiras ou em alimentos e produtos de higiene.</li>
-                <li><strong>Voluntariado:</strong> Participe como voluntário em nossas atividades e eventos.</li>
-                <li><strong>Divulgação:</strong> Ajude a compartilhar nossa missão e atrair mais apoio.</li>
-            </ul>
+        <!-- Como Ajudar -->
+        <section id="como-ajudar" class="section how-to-help-section">
+            <div class="container">
+                <h2>Como Você Pode Ajudar</h2>
+                <div class="help-options">
+                    <div class="help-option">
+                        <i class="fas fa-hand-holding-heart"></i>
+                        <h3>Doações</h3>
+                        <p>Apoie nossos projetos com recursos financeiros ou materiais.</p>
+                    </div>
+                    <div class="help-option">
+                        <i class="fas fa-users"></i>
+                        <h3>Voluntariado</h3>
+                        <p>Participe de nossas ações e contribua com seu tempo.</p>
+                    </div>
+                    <div class="help-option">
+                        <i class="fas fa-share-alt"></i>
+                        <h3>Divulgação</h3>
+                        <p>Ajude a espalhar nossa mensagem e ampliar nosso impacto.</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="contato" class="section">
-            <h2>Contato</h2>
-            <p>Telefone: <span id="telefone"></span></p>
-            <p>Email: <span id="email"></span></p>
-            <p>Endereço: <span id="endereco"></span></p>
+        <!-- Contato -->
+        <section id="contato" class="section contact-section">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> Telefone: +55 45 1234-5678</p>
+                    <p><i class="fas fa-envelope"></i> Email: contato@unican.org</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Endereço: Rua Exemplo, 123 - Foz do Iguaçu</p>
+                </div>
+            </div>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer class="footer">
-        <div class="container">
+        <div class="container footer-content">
             <p>&copy; 2024 Unican. Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
         </div>
     </footer>
 
     <script src="scripts.js"></script>
 </body>
 </html>
+
