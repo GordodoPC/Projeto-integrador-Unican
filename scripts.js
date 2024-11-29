@@ -52,6 +52,5 @@ function carregarInformacoes() {
     carregarContato();
     carregarProjetos();
 }
-
 // Chama a função principal ao carregar a página
 document.addEventListener("DOMContentLoaded", carregarInformacoes);

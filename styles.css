@@ -13,20 +13,17 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
 }
-
 .container {
     width: 90%;
     max-width: 1200px;
     margin: auto;
 }
-
 .header {
     background-color: var(--primary-color);
     color: white;
     padding: 20px 0;
     text-align: center;
 }
-
 .header .logo {
     max-width: 100px;
     margin-bottom: 10px;
