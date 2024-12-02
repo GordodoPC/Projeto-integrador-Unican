@@ -19,6 +19,7 @@ const ongData = {
     ]
 };
 
+
 // Função para exibir os dados de contato na seção de contato
 function carregarContato() {
     document.getElementById("telefone").textContent = ongData.contato.telefone;
